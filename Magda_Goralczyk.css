@@ -127,3 +127,38 @@ ul {
 li {
   display: inline;
 }
+@media (max-height: 535px){
+  .profile-card {
+    height: 300px;
+  }
+  .head, .about {
+  margin-bottom: 2%;
+}
+  .profile-card {
+  width: 580px;
+}
+  body {
+  height: 123vh;
+}
+.content {
+  padding: 1% 0%;
+}
+@media (max-height: 340px){
+.profile-image {
+  position: absolute;
+  left: 60%;
+  top: 27%;
+}
+  .name-headline {
+  position: absolute;
+  left: 20%;
+  top: 15%;
+  }
+  .content {
+  position: absolute;
+  left: 5%;
+  top: 51%;
+}
+    body {
+  height: 100vh;
+}
